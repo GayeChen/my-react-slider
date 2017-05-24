@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.wrapper {
+  width: 400px;
+  height: 200px;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper .sliders {
+  position: absolute;
+  width: 1200px;
+  height: 200px;
+}
+.wrapper .sliders .slider {
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+.wrapper .sliders .slider img {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .dots {
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+  height: 20px;
+  text-align: center;
+}
+.wrapper .dots .dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.wrapper .dots .dot.active {
+  background-color: red;
+}
+.wrapper .dots .dot:hover {
+  background-color: red;
+}
+.wrapper .arrows {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+}
+.wrapper .arrows .arrow {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+}
+.wrapper .arrows .arrow:hover {
+  background-color: red;
+}
+.wrapper .arrows .arrow-left {
+  float: left;
+  margin-left: 5px;
+}
+.wrapper .arrows .arrow-right {
+  float: right;
+  margin-right: 5px;
+}
